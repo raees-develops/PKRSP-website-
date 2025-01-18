@@ -1,0 +1,1263 @@
+/* banner media queries start */
+/* For extra small devices (phones, less than 480px) */
+@media only screen and (max-width: 480px) {
+    .banner {
+      /* border: 3px solid blue; */
+      width: 100%;
+      height: 200px;;
+      position: relative;
+      top: 120px;
+      
+    }
+    .banner-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        z-index: 1; /* Ensure it sits on top of the background image */
+    }
+    
+    #heading-start-point {
+        position: relative;
+        top: 17px;
+        left: 10px;
+        font-family: "Bebas Neue", sans-serif;
+        color: aliceblue;
+        word-spacing: 7px;
+        font-size: 35px;
+    }
+    
+    #text-box {
+        width: 300px;
+        height: 100px;
+        /* border: 1px solid red; */
+        z-index: 2; /* Higher z-index than the overlay */
+        position: relative;
+        left: 0px;
+        top: 80px;
+    }
+    
+    #text1, #text2 {
+        position: absolute;
+        top: 48px;
+        left: 100px;
+        word-spacing: 10px !important;
+        font-size: 26PX;
+        font-family: "Bebas Neue", sans-serif;
+        color: yellow;
+    }
+    
+    
+  }
+  
+  /* For small devices (phones, 481px to 767px) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .banner {
+      /* border: 3px solid green; */
+      width: 100%;
+      height: 250px;;
+      position: relative;
+      top: 120px;
+    }
+    .banner-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        z-index: 1; /* Ensure it sits on top of the background image */
+    }
+    
+    #heading-start-point {
+        position: relative;
+        top: 17px;
+        left: 10px;
+        font-family: "Bebas Neue", sans-serif;
+        color: aliceblue;
+        word-spacing: 7px;
+        font-size: 54px;
+    }
+    
+    #text-box {
+        width: 500px;
+        height: 148px;
+        /* border: 1px solid palegreen; */
+        z-index: 2; /* Higher z-index than the overlay */
+        position: relative;
+        left: 0px;
+        top: 100px;
+    }
+    
+    #text1, #text2 {
+        position: absolute;
+        top: 62px;
+        left: 150px;
+        word-spacing: 10px !important;
+        font-size: 44PX;
+        font-family: "Bebas Neue", sans-serif;
+        color: yellow;
+    }
+    
+
+  }
+  
+  /* For large devices (laptops/desktops, 1025px to 1440px) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .banner {
+      /* border: 3px solid purple; */
+    }
+  }
+  
+  /* For extra large devices (large desktops, 1441px and above) */
+  @media only screen and (min-width: 1441px) {
+    .banner {
+      /* border: 3px solid red; */
+    }
+    
+  }
+  
+  /* For medium devices (tablets, 768px to 1024px) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+      /* border: 3px solid orange; */
+    }
+    .banner-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        z-index: 1; /* Ensure it sits on top of the background image */
+    }
+    
+    #heading-start-point {
+        position: relative;
+        top: 17px;
+        left: 50px;
+        font-family: "Bebas Neue", sans-serif;
+        color: aliceblue;
+        word-spacing: 7px;
+        font-size: 68px;
+    }
+    
+    #text-box {
+        width: 700px;
+        height: 200px;
+        /* border: 1px solid darkblue; */
+        z-index: 2; /* Higher z-index than the overlay */
+        position: relative;
+        left: 0px;
+        top: 400px;
+    }
+    
+    #text1, #text2 {
+        position: absolute;
+        top: 82px;
+        left: 250px;
+        word-spacing: 10px !important;
+        font-size: 53PX;
+        font-family: "Bebas Neue", sans-serif;
+        color: yellow;
+    }
+    
+
+  }
+  
+  /* For large devices (laptops/desktops, 1025px to 1440px) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .banner {
+      /* border: 3px solid purple; */
+      position: relative;
+      top: 50px;
+    }
+    .banner-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        z-index: 1; /* Ensure it sits on top of the background image */
+    }
+    
+    #heading-start-point {
+        position: relative;
+        top: 17px;
+        left: 50px;
+        font-family: "Bebas Neue", sans-serif;
+        color: aliceblue;
+        word-spacing: 7px;
+        font-size: 90px;
+    }
+    
+    #text-box {
+        width: 900px;
+        height: 200px;
+        /* border: 1px solid pink; */
+        z-index: 2; /* Higher z-index than the overlay */
+        position: relative;
+        left: 30px;
+        top: 370px;
+    }
+    
+    #text1, #text2 {
+        position: absolute;
+        top: 87px;
+        left: 370px;
+        word-spacing: 10px !important;
+        font-size: 65PX;
+        font-family: "Bebas Neue", sans-serif;
+        color: yellow;
+    }
+    
+
+  }
+  
+  /* For extra large devices (large desktops, 1441px and above) */
+  @media only screen and (min-width: 1441px) {
+    .banner {
+      /* border: 3px solid red; */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* responsive-about-us */
+ @media only screen and (max-width: 480px) {
+    .about-us-container {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        box-sizing: border-box;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid black; */
+        margin-top: 78px;
+    }
+    
+    .about-us {
+        position: relative;
+        cursor: default;
+        margin-top: 80px;
+        -webkit-box-reflect: below -25px linear-gradient(transparent, #0005);
+    }
+    
+    .about-us > span {
+        position: relative;
+        display: inline-flex;
+        font-size: 45px;
+        color: black; /* Main text color */
+        text-transform: uppercase;
+        font-weight: 800;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+        font-family: "Bebas Neue", sans-serif;
+        letter-spacing: 1px;
+        animation: animatei 3s ease-in-out infinite;
+        animation-delay: calc(0.15s * var(--i));
+    }
+    
+    .about-us > span.shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: black; /* Shadow color set to black */
+        z-index: -1; /* Behind the main text */
+        filter: blur(4px); /* Blur effect for the shadow */
+    }
+    
+    
+@keyframes animatei {
+    0% {
+        transform: translateY(0px);
+        color: black; /* Main text color */
+    }
+    20% {
+        transform: translateY(-50px);
+        color: black; /* Main text color */
+    }
+    40%, 100% {
+        transform: translateY(0px);
+        color: black; /* Main text color */
+    }
+}
+   
+    
+    
+  }
+  
+  /* For small devices (phones, 481px to 767px) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .about-us-container {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        box-sizing: border-box;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid blue; */
+        margin-top: 78px;
+    }
+    
+    .about-us {
+        position: relative;
+        cursor: default;
+        margin-top: 80px;
+        -webkit-box-reflect: below -25px linear-gradient(transparent, #0005);
+    }
+    
+    .about-us > span {
+        position: relative;
+        display: inline-flex;
+        font-size: 65px;
+        color: black; /* Main text color */
+        text-transform: uppercase;
+        font-weight: 800;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+        font-family: "Bebas Neue", sans-serif;
+        letter-spacing: 0px;
+        animation: animatei 2s ease-in-out infinite;
+        animation-delay: calc(0.15s * var(--i));
+    }
+    
+    .about-us > span.shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: black; /* Shadow color set to black */
+        z-index: -1; /* Behind the main text */
+        filter: blur(4px); /* Blur effect for the shadow */
+    }
+    
+    
+@keyframes animatei {
+    0% {
+        transform: translateY(0px);
+        color: black; /* Main text color */
+    }
+    20% {
+        transform: translateY(-50px);
+        color: black; /* Main text color */
+    }
+    40%, 100% {
+        transform: translateY(0px);
+        color: black; /* Main text color */
+    }
+}
+    
+  }
+  
+  /* For medium devices (tablets, 768px to 1024px) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    .about-us-container {
+        width: 100%;
+        height: auto;
+      
+        box-sizing: border-box;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid orange; */
+        margin-top: -44px;
+    }
+    
+    .about-us {
+        position: relative;
+        cursor: default;
+        margin-top: 80px;
+        -webkit-box-reflect: below -25px linear-gradient(transparent, #0005);
+    }
+    
+    .about-us > span {
+        position: relative;
+        display: inline-flex;
+        font-size: 85px;
+        color: black; /* Main text color */
+        text-transform: uppercase;
+        font-weight: 800;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+        font-family: "Bebas Neue", sans-serif;
+        letter-spacing: 0px;
+        animation: animatei 2s ease-in-out infinite;
+        animation-delay: calc(0.15s * var(--i));
+    }
+    
+    .about-us > span.shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: black; /* Shadow color set to black */
+        z-index: -1; /* Behind the main text */
+        filter: blur(4px); /* Blur effect for the shadow */
+    }
+    
+    
+@keyframes animatei {
+    0% {
+        transform: translateY(0px);
+        color: black; /* Main text color */
+    }
+    20% {
+        transform: translateY(-50px);
+        color: black; /* Main text color */
+    }
+    40%, 100% {
+        transform: translateY(0px);
+        color: black; /* Main text color */
+    }
+}
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about-us-paragraph-start-responsive-start */
+  /* For extra small devices (phones, less than 480px) */
+  @media only screen and (max-width: 480px) {
+    /* .about-us-container11{
+        width: 100%;
+        height: 700px ;
+        border: 1px solid blue;
+    }
+    .sec-1{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 100px ;
+       
+    }
+    .container-1{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .containt-1{
+        position: relative;
+        width:100% ;
+       
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }  */
+
+
+    .about-us-container11 {
+        width: 100%;
+        height: 400px;
+        /* border: 1px solid blue; */
+        overflow: hidden; /* Ensures no child elements overflow the container */
+        position: relative; /* Makes it a reference point for child elements */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+        box-sizing: border-box; /* Includes padding and border in width/height calculations */
+    }
+    
+    .sec-1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Ensure it spans the parent's width */
+        height: 100%; /* Ensure it spans the parent's height */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%; /* Ensure it spans the parent's width */
+    }
+    
+    .containt-1 {
+        position: relative;
+        width: 100%; /* Make it span the full width of the parent */
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0; /* Remove margin */
+        padding: 50; /* Remove padding */
+        box-sizing: border-box; /* Includes border in width/height calculations */
+        margin-top: -150px;
+    }
+    
+
+    .containt-1>.image-1{
+        position: relative;
+          width: 480px;
+          height: 130px;
+          overflow: hidden;
+          /* border: 2px solid palegreen; */
+          border-radius: 20px;
+          margin-left: 10px;
+          position: relative;
+          left: 40px;
+      }
+
+
+   
+
+      .containt-1>.image-1>img{
+          width: 100%;
+          height: 100%;
+          z-index: 111;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+         
+      
+        }
+
+        .text-box {
+            z-index: 222;
+            background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+            backdrop-filter: blur(50px); 
+            width: 800px;
+            height: 235px;
+            position: relative;
+            left: 70px;
+            font-size: 15px;
+            /* border: 1px solid magenta; */
+            position: relative;
+            top: 20px;
+            padding: 40px;
+            border-radius: 30px;
+            border: 1px solid rgba(225,225,225,0.1);
+            transform: translate(-80px, 50px);
+        }
+
+
+        #my-informaton-medium{
+            display: none;
+        }
+   
+
+    #my-informaton{
+        display: none;
+    }
+    #about-head{
+        display: none;
+     }
+     #my-informaton-small {
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -35PX;
+        font-size: 10px;
+        padding: 0%;
+       
+    }
+    
+  }
+  @media only screen and (width: 414px) and (height: 896px) and (orientation: portrait) {
+    .text-box {
+        z-index: 222;
+        background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+        backdrop-filter: blur(50px); 
+        width: 800px;
+        height: 233px;
+        position: relative;
+        left: 70px;
+        font-size: 15px;
+        /* border: 1px solid magenta; */
+        position: relative;
+        top: 20px;
+        padding: 40px;
+        border-radius: 30px;
+        border: 1px solid rgba(225, 225, 225, 0.1);
+        transform: translate(-80px, 50px);
+    }
+    #my-informaton-small {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -47px;
+        font-size: 11px;
+        padding: 0%;
+        color: black;
+    }
+}
+
+@media only screen and (width: 430px) and (height: 932px) {
+    .text-box {
+        z-index: 222;
+        background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+        backdrop-filter: blur(50px); 
+        width: 800px;
+        height: 233px;
+        position: relative;
+        left: 70px;
+        font-size: 15px;
+        /* border: 1px solid magenta; */
+        position: relative;
+        top: 20px;
+        padding: 40px;
+        border-radius: 30px;
+        border: 1px solid rgba(225,225,225,0.1);
+        transform: translate(-80px, 50px);
+    }
+    #my-informaton-small {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -38PX;
+        font-size: 11px;
+        padding: 0%;
+        color: black;
+       
+    }
+    
+}
+@media only screen and (width: 412px) and (height: 915px) and (orientation: portrait) {
+    .text-box {
+        z-index: 222;
+        background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+        backdrop-filter: blur(50px); 
+        width: 800px;
+        height: 233px;
+        position: relative;
+        left: 70px;
+        font-size: 15px;
+        /* border: 1px solid magenta; */
+        position: relative;
+        top: 20px;
+        padding: 40px;
+        border-radius: 30px;
+        border: 1px solid rgba(225, 225, 225, 0.1);
+        transform: translate(-80px, 50px);
+    }
+    #my-informaton-small {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -47px;
+        font-size: 11px;
+        padding: 0%;
+        color: black;
+    }
+}
+@media only screen and (min-width: 340px) and (max-width: 350px) 
+  and (min-height: 880px) and (max-height: 890px) 
+  {
+
+
+    .containt-1>.image-1{
+        position: relative;
+          width: 480px;
+          height: 130px;
+          overflow: hidden;
+          border: 2px solid palegreen;
+          border-radius: 20px;
+          margin-left: 10px;
+          position: relative;
+          left: 40px;
+          margin-top: -30px;
+      }
+    .text-box {
+        z-index: 222;
+        background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+        backdrop-filter: blur(50px); 
+        width: 800px;
+        height: 242px;
+        position: relative;
+        left: 70px;
+        font-size: 15px;
+        /* border: 1px solid magenta; */
+        position: relative;
+        top: 20px;
+        padding: 40px;
+        border-radius: 30px;
+        border: 1px solid rgba(225, 225, 225, 0.1);
+        transform: translate(-80px, 50px);
+    }
+    #my-informaton-small {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -49px;
+        font-size: 10px;
+        padding: 0%;
+        color: black;
+    }
+    
+}
+/* nothing */
+
+
+ /* For medium devices (tablets, 768px to 1024px) */
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #my-informaton-small {
+       display: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -35PX;
+        font-size: 10px;
+        padding: 0%;
+       
+    }
+    .about-us-container11 {
+        width: 100%;
+        height: 400px;
+        /* border: 1px solid blue; */
+        overflow: hidden; /* Ensures no child elements overflow the container */
+        position: relative; /* Makes it a reference point for child elements */
+        padding: 0; /* Remove any padding */
+        margin: 0; /* Remove any margin */
+        box-sizing: border-box; /* Includes padding and border in width/height calculations */
+    }
+    
+    .sec-1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Ensure it spans the parent's width */
+        height: 100%; /* Ensure it spans the parent's height */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%; /* Ensure it spans the parent's width */
+    }
+    
+    .containt-1 {
+        position: relative;
+        width: 100%; /* Make it span the full width of the parent */
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0; /* Remove margin */
+        padding: 50; /* Remove padding */
+        box-sizing: border-box; /* Includes border in width/height calculations */
+        margin-top: -150px;
+    }
+    
+
+    .containt-1>.image-1{
+        position: relative;
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          /* border: 2px solid palegreen; */
+          border-radius: 20px;
+          margin-left: 10px;
+          position: relative;
+          left: 40px;
+      }
+
+
+   
+
+      .containt-1>.image-1>img{
+          width: 100%;
+          height: 100%;
+          z-index: 111;
+          position: absolute;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+         
+      
+        }
+
+        .text-box {
+            z-index: 222;
+            background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+            backdrop-filter: blur(50px); 
+            width: 800px;
+            height: 245px;
+            position: relative;
+            left: 70px;
+            font-size: 15px;
+            /* border: 1px solid magenta; */
+            position: relative;
+            top: 20px;
+            padding: 40px;
+            border-radius: 30px;
+            border: 1px solid rgba(225,225,225,0.1);
+            transform: translate(-80px, 50px);
+        }
+
+
+
+
+
+    #my-informaton{
+        display: none;
+    }
+    #about-head{
+        display: none;
+     }
+     #my-informaton-small {
+        display: none;
+       
+    }
+    #my-informaton-medium{
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -50PX;
+        font-size: 15px;
+        padding: 0%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+  /* for pc divices  */
+  /* For large devices (laptops/desktops, 1025px to 1440px) */
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    #my-informaton-small {
+        display: none;
+    }
+    #my-informaton-medium{
+        display: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -50PX;
+        font-size: 15px;
+        padding: 0%;
+
+    }
+    #about-head{
+        margin-top: -20px;
+        font-family: "Montaga", serif;
+    }
+    #my-informaton{
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+        margin-top: -29PX;
+    }
+
+  }
+
+
+
+
+  /* specific-one */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    #my-informaton-small {
+        display: none;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         text-align: center;
+         justify-content: center;
+         margin-top: -35PX;
+         font-size: 10px;
+         padding: 0%;
+        
+     }
+     .about-us-container11 {
+         width: 100%;
+         height: 400px;
+         /* border: 1px solid blue; */
+         overflow: hidden; /* Ensures no child elements overflow the container */
+         position: relative; /* Makes it a reference point for child elements */
+         padding: 0; /* Remove any padding */
+         margin: 0; /* Remove any margin */
+         box-sizing: border-box; /* Includes padding and border in width/height calculations */
+     }
+     
+     .sec-1 {
+         display: flex;
+         position: relative;
+         justify-content: center;
+         align-items: center;
+         width: 100%; /* Ensure it spans the parent's width */
+         height: 100%; /* Ensure it spans the parent's height */
+         margin: 0;
+         padding: 0;
+     }
+     
+     .container-1 {
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         width: 100%; /* Ensure it spans the parent's width */
+     }
+     
+     .containt-1 {
+         position: relative;
+         width: 100%; /* Make it span the full width of the parent */
+         /* border: 1px solid red; */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0; /* Remove margin */
+         padding: 50; /* Remove padding */
+         box-sizing: border-box; /* Includes border in width/height calculations */
+         margin-top: -150px;
+     }
+     
+ 
+     .containt-1>.image-1{
+         position: relative;
+           width: 600px;
+           height: 200px;
+           overflow: hidden;
+           /* border: 2px solid palegreen; */
+           border-radius: 20px;
+           margin-left: 10px;
+           position: relative;
+           left: 40px;
+       }
+ 
+ 
+    
+ 
+       .containt-1>.image-1>img{
+           width: 100%;
+           height: 100%;
+           z-index: 111;
+           position: absolute;
+           top: 0;
+           left: 0;
+           object-fit: cover;
+          
+       
+         }
+ 
+         .text-box {
+             z-index: 222;
+             background-color: rgba(119, 205, 255, 0.2); /* Increase transparency with lower alpha value */
+             backdrop-filter: blur(50px); 
+             width: 800px;
+             height: 245px;
+             position: relative;
+             left: 70px;
+             font-size: 15px;
+             /* border: 1px solid magenta; */
+             position: relative;
+             top: 20px;
+             padding: 40px;
+             border-radius: 30px;
+             border: 1px solid rgba(225,225,225,0.1);
+             transform: translate(-80px, 50px);
+         }
+ 
+ 
+ 
+ 
+ 
+     #my-informaton{
+         display: none;
+     }
+     #about-head{
+         display: none;
+      }
+      #my-informaton-small {
+         display: block;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         text-align: center;
+         justify-content: center;
+         margin-top: -50PX;
+         font-size: 13px;
+         padding: 0%;
+         color: black;
+     }
+     #my-informaton-medium{
+         display: none;
+         
+ 
+     }
+    
+  
+    
+
+  }
+
+
+  /* achievements-responsive-heading-start */
+  @media only screen and (max-width: 480px) {
+    .achievements{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid black; */
+        margin-top: -140px;
+    }
+    #my-work-of-all-skills{
+        text-align: center;
+        margin-top: 78px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #eb3405;
+        font-size: 24PX;
+        text-transform: capitalize;
+        
+      
+      
+      }
+      #my-work-subtitle{
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: 6px;
+        color: black;
+        font-family: "Bebas Neue", sans-serif;
+        margin-top: -20px;
+        cursor: pointer;
+        
+      }
+  }
+
+  /* may cause in effect in hover */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .achievements{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid black; */
+        margin-top: -140px;
+    }
+    #my-work-of-all-skills{
+        text-align: center;
+        margin-top: 78px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #eb3405;
+        font-size: 30PX;
+        text-transform: capitalize;
+        
+      
+      
+      }
+      #my-work-subtitle{
+        text-align: center;
+        font-size: 55px;
+        letter-spacing: 6px;
+        color: black;
+        font-family: "Bebas Neue", sans-serif;
+        margin-top: -20px;
+        cursor: pointer;
+        
+      }
+   
+    
+
+  }
+  @media only screen and (max-width: 480px) {
+    .con-of-box{
+        width: 100%;
+        height: auto;
+        /* border: 2px solid gold; */
+        margin-top: -20px;
+    }
+    .hide-card-data{
+        display: none;
+    }
+  }
